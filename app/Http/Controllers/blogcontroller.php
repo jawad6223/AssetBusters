@@ -17,10 +17,10 @@ class blogcontroller extends Controller
 
 function adminviewblog(){
 
-  $blog = blog::with(['blog_user','images','videos'])->where('status',1)->orderBy('id','DESC')->get();
+  // $blog = blog::with(['blog_user','images','videos'])->where('status',1)->orderBy('id','DESC')->get();
   
 
-  return view('admin.viewblog' ,compact('blog'));
+  // return view('admin.viewblog' ,compact('blog'));
 
 
        }
