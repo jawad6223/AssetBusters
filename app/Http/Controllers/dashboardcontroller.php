@@ -10,7 +10,7 @@ use App\Models\user;
 
 class dashboardcontroller extends Controller
 {
-    
+    ....
 
     function dashboard(){
 
